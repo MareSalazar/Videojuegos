@@ -35,6 +35,31 @@ public class Main{
 
         System.out.println("\nVideojuego 3:");
         videojuego3.mostrarInformacion();
+
+        //Comprobacion independencia
+        System.out.println("Iniciando Minecraft (videojuego1)");
+        videojuego1.iniciar();
+        videojuego1.mostrarInformacion();
+        videojuego1.mostrarVersion();
+
+        System.out.println();
+
+        System.out.println("\nEstado de FIFA");
+        videojuego2.mostrarInformacion();
+        videojuego2.mostrarVersion();
+
+        System.out.println();
+
+        System.out.println("\nEstado Roblox");
+        videojuego3.mostrarInformacion();
+        videojuego3.mostrarVersion();
+
+        System.out.println();
+
+        System.out.println("\nCerramos el primer videojuego Minecraft");
+        videojuego1.cerrar();
+        videojuego1.mostrarInformacion();
+
     }
 
 }
